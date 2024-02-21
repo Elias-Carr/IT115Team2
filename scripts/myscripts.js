@@ -1,8 +1,12 @@
-
-function showAlt(x) {
-  document.getElementById("alttext").innerHTML=x.alt;
+function showAlt(element) {
+  var altText = element.alt;
+  var altParagraph = document.getElementById('alttext');
+  altParagraph.textContent = altText;
+  altParagraph.style.display = 'block'; 
 }
 
-function hideAlt(x) {
-  document.getElementById("alttext").innerHTML="";
+function hideAlt() {
+  var altParagraph = document.getElementById('alttext');
+  altParagraph.textContent = '';
+  altParagraph.style.display = 'none'; 
 }
