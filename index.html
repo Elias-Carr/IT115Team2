@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Team 2 Website</title>
-<link rel="stylesheet" type="text/css" href="styles/toplevel.css">
-<script src="scripts/myscripts.js"></script>
 
+<head>
+    <title>Team 2 Website</title>
+    <link rel="stylesheet" type="text/css" href="styles/toplevel.css">
+    <script src="scripts/myscripts.js"></script>
+    <style>
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+                width: 400px;    
+                height: 400px;    
+                border: 1px solid #000; 
+                padding: 5px;  
+                margin: 5px; 
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>Welcome to the Team 2 Website!</h1>
-<p>Created by Elias Carr, Haylan Gilbert, David Ortega, and Marshall Corey</p>
+    <h1>Welcome to the Team 2 Website!</h1>
 
-<img src = "images/imageINDEX.jpg">
+    <div class="image-container">
+        <img src="images/tech.jpeg">
+    </div>
 
+    <p id="alttext" style="font-size:50px"> </p>
 
-<p id="alttext" style="font-size:50px"> <p>
+    <h1>Our Articles</h1>
+    <ul>
+        <li><a href="articleDO.html">Microsoft Wiki</a></li>
+        <li><a href="articleEC.html">The Evolution of Linux</a></li>
+        <li><a href="articleHG.html">The Difference Between High‐Level and Low‐Level Languages</a></li>
+        <li><a href="articleMC.html">Ways Our Online Data Can Be Compromised</a></li>
+    </ul>
 
-<h1>Our Articles</h1>
-<ul>
-<li><a href="articleDO.html">Microsoft Wiki</a></li>
-<li><a href="articleEC.html">The Evolution of Linux</a></li>
-<li><a href="articleHG.html">The Difference Between High‐Level and Low‐Level Languages</a></li>
-<li><a href="articleMC.html">Ways Our Online Data Can Be Compromised</a></li>
-</ul>
+    <h1>Tech Companies in the Greater Seattle Area</h1>
+    <ul>
+        <li>Amazon</li>
+        <li>Microsoft</li>
+        <li>Expedia</li>
+    </ul>
 
-<h1>Tech Companies in the Greater Seattle Area</h1>
-<ul>
-<li>Amazon</li>
-<li>Microsoft</li>
-</ul>
+    <p>Created by:</p>
+    <p>Elias Carr, Haylan Gilbert, David Ortega, and Marshall Corey</p>
+
 
 </body>
+
 </html>
