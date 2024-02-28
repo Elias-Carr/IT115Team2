@@ -6,22 +6,39 @@
     <script src="scripts/myscripts.js"></script>
 </head>
 <body class="container">
+<!--Navigation Bar-->
+<ul>
+<li><a href="index.html">Home</a><li>
+	<li class="dropdown">
+	<a href="javascript:void(0)" class="dropbtn">Articles</a>
+	<div class="dropdown-content">
+		<a href="articleEC.html">The Evolution of Linux</a>
+		<a href="articleMC.html">Ways Our Online Data Can Be Compromised</a>
+		<a href="articleHG.html">TBD</a>
+	</div>
+	</li>
+	<li class="dropdown">
+	<a href="javascript:void(0)" class="dropbtn">Companies</a>
+	<div class="dropdown-content">
+		<a href="articleTemplate.html">Amazon</a>
+		<a href="articleDO.html">Microsoft</a>
+		<a href="articleTemplate.html">Expedia</a>
+	</div>
+	</li>
+</ul>
+<!--End Navigation Bar-->
     <h1 class="header">Marshall's Article</h1>
     <div class="image-container">
-        <img src="images/imageMC.jpg" alt="Rollover text" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
+        <img src="images/imageMC.jpg">
     </div>
-    <figcaption>Image caption</figcaption>
-    <p id="alttext"></p>
     <h2 class="author">By: Marshall Corey</h2>
-    <p class="main-content">
+    <div class="main-content">
         These days, with all our personal data online, we must be aware of the various ways our data can be compromised. The following are a few of those ways, and what can be done to mitigate the damage. <br>
         1. Computer Viruses and other Malware: Though less common these days, one must always use caution when downloading software onto a device. Always double check the URL of websites you visit for downloads and the sender of any emails before downloading attachments. <br>
         2. Passwords: Using a weak password or the same password for multiple logins is risky. Always use uniquely generated passwords and a password manager to keep track of them. Two-factor authentication is another option to consider. <br>
         3. Phishing: Be wary of emails or text messages from untrusted senders. Phishing is a way to trick people into giving their information by posing as an official from a company or organization. Always double check URLs before clicking on them. <br>
         4. Up-to-date Software: Out of date software can give your devices vulnerabilities that might be difficult to see. Always keep your devices and software up-to-date with the latest patches.
-    <ul>
-        <li><a href="index.html">Table of Contents</a></li>
-    </ul>
+</div>
 </body>
 </html>
 
