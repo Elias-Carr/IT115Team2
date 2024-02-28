@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>David's Article!</title>
+    <title>Haylan's Article</title>
     <link rel="stylesheet" type="text/css" href="styles/branchlevel.css">
     <script src="scripts/myscripts.js"></script>
 </head>
 <body class="container">
-    <h1 class="header">Haylan's Article</h1>
-    <div class="image-container">
-        <img src="images/imageHG.jpg" alt="Rollover text" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-    </div>
-    <figcaption>Image caption</figcaption>
-    <p id="alttext"></p>
-    <h2 class="author">By: Haylan</h2>
-    <p class="main-content">
+<!--Navigation Bar-->
+<ul>
+<li><a href="index.html">Home</a><li>
+	<li class="dropdown">
+	<a href="javascript:void(0)" class="dropbtn">Articles</a>
+	<div class="dropdown-content">
+		<a href="articleEC.html">The Evolution of Linux</a>
+		<a href="articleMC.html">Ways Our Online Data Can Be Compromised</a>
+		<a href="articleHG.html">TBD</a>
+	</div>
+	</li>
+	<li class="dropdown">
+	<a href="javascript:void(0)" class="dropbtn">Companies</a>
+	<div class="dropdown-content">
+		<a href="articleTemplate.html">Amazon</a>
+		<a href="articleDO.html">Microsoft</a>
+		<a href="articleTemplate.html">Expedia</a>
+	</div>
+	</li>
+</ul>
+<!--End Navigation Bar-->
+<h1 class="header">Haylan's Article</h1>
+	<div class="image-container"><img src="images/imageHG.jpg"></div>
+		<h2 class="author">By: Haylan Gilbert</h2>
+			<div class="main-content">
         Article Content
-    <ul>
-        <li><a href="index.html">Table of Contents</a></li>
-    </ul>
+		</div>
 </body>
 </html>
