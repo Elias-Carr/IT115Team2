@@ -36,7 +36,7 @@ img {
 .main-content {
   text-align: left;
   margin: 50px;
-  padding: 50px; /* Removed extra space */
+  padding: 0px 75px 50px 75px; /* Removed extra space */
 }
 
 ol {
@@ -47,7 +47,7 @@ ol {
 }
 
 ol li a {
-  display: inline;
+  display: grid;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -55,7 +55,7 @@ ol li a {
 }
 
 ol li a:hover {
-  color: lightblue;
+  background-color: lightblue;
 }
 
 /* Navigation Bar */
